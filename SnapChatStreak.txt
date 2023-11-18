@@ -1,0 +1,24 @@
+DELAY 1000
+REM Open your Snapchat-like App
+COMMAND SPACE
+DELAY 300
+STRING YourAppName
+DELAY 300
+ENTER
+
+REM Assuming the app opens to the camera
+DELAY 1000
+REM Take a picture
+KEY SPACE  ; Assuming space takes a picture
+DELAY 1000
+
+REM Navigate to friends list
+KEY TAB    ; This is highly dependent on your app's navigation
+DELAY 500
+KEY DOWN_ARROW
+DELAY 500
+KEY ENTER  ; Selecting a friend
+
+REM Send the picture
+DELAY 500
+KEY COMMAND ENTER  ; Assuming this command sends the picture
