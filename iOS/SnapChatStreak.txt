@@ -1,15 +1,15 @@
 DELAY 1000
-REM Open your Snapchat-like App
-COMMAND SPACE
+REM Open Snapchat
+GUI SPACE
 DELAY 300
-STRING YourAppName
+STRING Snapchat
 DELAY 300
 ENTER
 
 REM Assuming the app opens to the camera
 DELAY 1000
 REM Take a picture
-KEY SPACE  ; Assuming space takes a picture
+KEY SPACE  
 DELAY 1000
 
 REM Navigate to friends list
